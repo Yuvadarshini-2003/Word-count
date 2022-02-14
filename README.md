@@ -32,7 +32,7 @@ for i in fp:
     print("Number of words={}".format(num))
 ~~~
 ### OUTPUT:
-![Output](word.jpg)
-![Output](file.jpg)
+![Output](w2.jpg)
+![Output](w1.jpg)
 ## RESULT:
 Thus the program is written to find the word count from a text.
