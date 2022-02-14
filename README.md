@@ -23,7 +23,14 @@ Add the counted number in the variable
 ### Step 6:
 Run the program and display the results
 ## PROGRAM:
-
+~~~
+num=0
+fp=open("file.txt",'r')
+for i in fp:
+    word=i.split()
+    num+=len(word)
+    print("Number of words={}".format(num))
+~~~
 ### OUTPUT:
 ![Output](word.jpg)
 ![Output](file.jpg)
